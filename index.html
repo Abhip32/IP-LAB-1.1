@@ -8,181 +8,236 @@
     <meta name="description" content="Profile Page">
     <meta name="keywords" content="HTML5, tags">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-	<header>
-		<hgroup>
-			<center><h2>PROFILE PAGE</h2></center>
-			<marquee><h4>WELCOME TO MY PAGE</h4></marquee>
-		</hgroup>
-	</header>
-	<hr/>
-	  <nav>
-		<menu type="context" id="navmenu">
-			<menuitem label="Home" icon="./Assets/home.png"> <a href="#">Home</a> </menuitem>
-			<menuitem label="Home" icon="./Assets/home.png"> <a href="#">Another Link</a> </menuitem>
-		</menu>  
-	  </nav>
-	<hr/>
+	<div class="topsection" id="home">
+		<nav>
+			<h1 class="menu-title">A. Patil</h1>
+			<menu type="context" id="navmenu">
+				<menuitem label="Home" icon="./Assets/home.png"> <a href="#home">Home</a> </menuitem>
+				<menuitem label="Home" icon="./Assets/home.png"> <a href="#BasicInfo">Another Link</a> </menuitem>
+			</menu>  
+		  </nav>
 
+		  <div id="Greet">
+				<div id="HelloMessage">
+					<img src="./Assets/profile-pic (2).png"/>
+					<h2 class="HelloMessage1">Hello friend !</h2>
+				</div>
+				<h2 class="HelloMessage2">I am Abhishek Patil ...</h2>	
+		  </div>
+	</div>
+	 
 	  <main>
-		<section class="BasicInfo">
-			<h3><u>Basic Info</u></h3>
-			<p>
-				<span><img src="./Assets/profile-pic (2).png" width="200px" height="150px"/></span>
-				<ul>
-					<li>
-						<u><strong> Name</u> : </strong>
-						<i>Abhishek Patil</i>
-					</li>
-					<li>
-						<u><strong> Email</u> : </strong>
-						<i>2020.firsename.lastname@ves.ac.in</i>
-					</li>
-					<li>
-						<u><strong> Mobile No</u> : </strong>
-						<i>1234567890</i>
-					</li>
-					<li>
-						<span><a href="https://www.github.com/"><b>Link for the Github Account</b></a></span>
-					</li>
-					<li>
-						<abbr> Available from </abbr><time datetime="2020-08-17 08:00">Monday-Friday 8:00 AM onwards</time>
-						
-					</li>
-				</ul>
-			</p>
+		<section id="BasicInfo">
+			<div class="Info">
+
+				<div class="InfoL">
+					<h2>Basic Info</h2>
+				<p>
+					<ul>
+						<li>
+							<u><strong> Name</u> : </strong>
+							<i>Abhishek Patil</i>
+						</li>
+						<li>
+							<u><strong> Email</u> : </strong>
+							<i>2020.firsename.lastname@ves.ac.in</i>
+						</li>
+						<li>
+							<u><strong> Mobile No</u> : </strong>
+							<i>1234567890</i>
+						</li>
+						<li>
+							<span><a href="https://www.github.com/"><b>Link for the Github Account</b></a></span>
+						</li>
+						<li>
+							<abbr> Available from </abbr><time datetime="2020-08-17 08:00">Monday-Friday 8:00 AM onwards</time>
+							
+						</li>
+					</ul>
+				</p>
+
+				</div>
+
+				
+			<div class="InfoR">
+				<div class="InfoM">
+					<h2>ABOUT ME</h2>
+					<span><img src="./Assets/profile-pic (2).png" class="Logo" /></span>
+				
+			</div>
+			<div class="InfoMR">
+				<p>
+					My name is <strong>Abhishek Patil</strong>. I have just over a year of experience as a junior software engineer with First Technology. In my short time there, I've already contributed to over a dozen projects and assisted with managing one project for one of the firm's long-time clients.
+					Prior to this role, I completed a two-year internship with Mobile First, where I honed my mobile app development skills. Ideally, I would like to continue to specialize in mobile software engineering, an area where I know your firm excels.  Thank you.
+				</p>
+			</div>
+				
+			</div>
+			
+		</div>
+			
 		  </section>
-		  <hr/>
-	
-		  <article class="AboutMe">
-			<h3><u>About Me</u></h3>
-			<p>
-				My name is <strong>Abhishek Patil</strong>. I have just over a year of experience as a junior software engineer with First Technology. In my short time there, I've already contributed to over a dozen projects and assisted with managing one project for one of the firm's long-time clients.
-				Prior to this role, I completed a two-year internship with Mobile First, where I honed my mobile app development skills. Ideally, I would like to continue to specialize in mobile software engineering, an area where I know your firm excels.  Thank you.
-			</p>
-		  </article>
-		  <hr/>
 		  
-		  <aside class="Skills">
-			<h3><u>Skills</u></h3>
-			<ol>
-				<li><strong>Core Programming Languages</strong></li>
-				<ul>
-					<li>C Programming</li>
-					<li>Java Programming</li>
-				</ul>
-					<br/>
-				<li><strong>Web Development</strong></li>
-				<ul>
-					<li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
-					<li><abbr title="Cascading Style Sheets">CSS</abbr></li>
-					<li><abbr title="Java Script">JS</abbr></li>
-				</ul>
-			</ol>
+		  
+		  
+		  <aside id="Skills">
+			<center><h1>My Skills</h1></center>
+			<marquee Scrollamount=10>
+				<img src="./Assets/html.png">
+				<img src="./Assets/css.png">
+				<img src="./Assets/js.png">
+				<img src="./Assets/nodejs_logo.png">
+				<img src="./Assets/React-icon.svg.png">
+				<img src="./Assets/pngegg.png">
+				<img src="./Assets/sql-64a6e0f07773cf17581e76ca09e17dbc.png">
+				<img src="./Assets/toppng.com-c-programming-icon-c-programming-language-logo-1269x1401.png">
+				<img src="./Assets/kisspng-mongodb-document-oriented-database-nosql-openshift-web-app-development-servcie-in-dehradun-5ca1b8cbb3c6e9.4630661915541024757364.png">
+				<img src="./Assets/expressjs.png">
+				<img src="./Assets/django.png">
+				<img src="./Assets/4373217_java_logo_logos_icon.png">
+				<img src="./Assets/angular_solidBlack.png">
+			</marquee>
 		  </aside>
-		  <hr/>
+
 
 		  <aside class="WorkExperience">
-			<h3><u>Work Experience</u></h3>
-			<dl>
-				<ul>
-					<li>
-						<dt> <font color="blue" face="Verdana, Geneva, sans-serif" size="3">Intel</font></dt>
-						<dd>Role -<strong>Web Developer</strong></dd>
-					</li>
-					<li>
-						<dt> <font color="blue" face="Verdana, Geneva, sans-serif" size="3">Nvidia</font></dt>
-						<dd>Role - <strong>Graphics Designer</strong></dd>
-					</li>
-				</ul>
-			  </dl>
+			<div class="WorkExperienceheader">
+				<img src="https://cdn-icons.flaticon.com/png/512/1149/premium/1149081.png?token=exp=1660831012~hmac=71369441fe094ba4dabcb4bc3d144f3a" alt="work"/>
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="WorkExperiencecontent">
+				<div class="timeline">
+					<div class="container left">
+					  <div class="content">
+						<h2>2022</h2>
+						<h3>Nvidia : Graphics Designer</h3>
+						<p>A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed, or electronic media, such as brochures and advertising.</p>
+					  </div>
+					</div>
+
+					<div class="container right">
+					  <div class="content">
+						<h2>2020</h2>
+						<h3>Intel : Web Developer</h3>
+						<p>A web developer’s job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website’s performance and capacity. </p>
+					  </div>
+					</div>
+					
+					</div>
+				  </div>
+			</div>
+			
+
 		  </aside>
-		  <hr/>
 	  </main>
 
 
 	  <div class="FavouriteQuote">
-		
-		<h3><u>Favourite Quotes</u></h3>
-		
-		<blockquote><big>"People throw stones at you and you convert them into milestones"</big> — <cite><b>Sachin Tendulkar</b></cite> </blockquote>
-		<blockquote><q>It’s important to <b>learn</b> and not repeat the same <b>mistakes.</b>What’s done is done.</q> ―<cite> <b>Mahendra Singh Dhoni</b> </cite></blockquote>
-		<blockquote><pre>“Any fool can write code that a computer can understand. 
-			Good programmers write code that humans can understand.” – <b>Martin Fowler</b></pre></blockquote>
-	 </div>
-	 <hr/>
 
+		<div class="FavouriteQuoteheader">
+			<img src="https://thumbs.dreamstime.com/b/black-quote-marks-isolated-white-flat-reading-icon-vector-illustration-quotation-logo-140878774.jpg" alt="quote"/>
+			<h1>Favourite Quotes</h1>
+		</div>
+
+		<div class="FavouriteQuoteContent">
+			<div class="QuoteCard1">
+				<img src="https://resources.pulse.icc-cricket.com/photo-resources/ICC/photo/2018/04/22/814ca3ec-d52c-4404-8500-320baef43305/Main.jpg?width=640&height=360" alt="photo"/>
+				<blockquote><big>"People throw stones at you and you convert them into milestones"</big> — <cite><b>Sachin Tendulkar</b></cite> </blockquote>
+			</div>
+			<br/>
+			<div class="QuoteCard2">
+				<img src="https://www.onmanorama.com/content/dam/mm/en/sports/cricket/images/2021/9/19/msd.jpg" alt="photo"/>
+				<blockquote><q>It’s important to <b>learn</b> and not repeat the same <b>mistakes.</b>What’s done is done.</q> ―<cite> <b>Mahendra Singh Dhoni</b> </cite></blockquote>
+			</div>
+
+			<div class="QuoteCard3">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuvvRD88ps6sV0JMpKhxIJvdNWG8TziqLyZiwu86SIODsOULJSzeY2443atZYYaBd54Cw&usqp=CAU" alt="photo"/>
+				<blockquote>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”  ―<cite> <b>Martin Fowler</b> </cite></blockquote>
+			</div>	
+		</div>
+	 </div>
+
+
+	 
 	 <div class="Multimedia">
-		<table border=2px;>
-			<caption><h3><u>Multimedia</u></h3></caption>
-			<thead>
-				<tr>
-					<th>Audio</th>
-					<th>Video</th>
-					<th>Figure</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><audio controls loop>
-						<source src="./Assets/audio.mp3" type="audio/mpeg">
-					  Your browser does not support the audio element.
-					  </audio></td>
 
-					<td><video width="320" height="240" controls>
-						My Intro
-						<source src="./Assets/video.mp4" type="video/mp4">
-					  Your browser does not support the video tag.
-					  </video></td>
+		<div class="Multimediaheader">
+			<img src="https://cdn.icon-icons.com/icons2/282/PNG/512/clapper-icon_30384.png" alt="quote"/>
+			<h1>Multimedia</h1>
+		</div>
 
-					<td><figure alight="right" >
-                        <img width="300px" height="180px" alt="Image of Bat & Ball" src="https://marketplace.canva.com/EAE-0Ua1RyQ/1/0/1600w/canva-blue-gold-minimalist-certificate-of-appreciation-certificate-L4eibrNwBBs.jpg" alt="The Importance of Being Earnest Cast">
-                        <figcaption><small>My Certificate</small></figcaption>
-                     </figure></td>
+		<div class="MultimediaContent">
+			<div class="AudioCard">
+				<h1>Audio</h1>
+				
+				<audio controls loop>
+					<source src="./Assets/audio.mp3" type="audio/mpeg">
+				  Your browser does not support the audio element.
+				</audio>
+			</div>
 
-					
-				</tr>
-			</tbody>
-		</table>
-		<hr/>
+			<div class="VideoCard">
+				<h1>Video</h1>
+				
+				<video width="320" height="240" controls>
+					My Intro
+					<source src="./Assets/video.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				  </video>
+			</div>
+
+			<div class="FigureCard">
+				<h1>Certificate</h1>
+
+				<figure alight="right" >
+					<img width="300px" height="180px" alt="Image of Bat & Ball" src="https://marketplace.canva.com/EAE-0Ua1RyQ/1/0/1600w/canva-blue-gold-minimalist-certificate-of-appreciation-certificate-L4eibrNwBBs.jpg" alt="The Importance of Being Earnest Cast">
+					<figcaption><small>My Certificate</small></figcaption>
+				 </figure>
+			</div>
+			
+		</div>
 	 </div>
+	 <br/>
 	
 
 	
 	  <footer>
-		<details class="details">
-            <summary><mark>Click here to rate my profile</mark></summary>
-			<hr/>
-            <p>
-                <h3>Rate My Website</h3>
-                <span><b>Rating:</b></span>
-            <select>
-            <optgroup label="Choice [1-5]">
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="4">Four</option>
-                <option value="5">Five</option>
-            </optgroup>
-            </select>
-            </p>
-            <textarea id="textarea" name="textarea" rows="4" cols="50">
-                Give your feedback
-            </textarea>
-            <br/>
-            <input type="submit"></p>
+		<div class="Footerheader">
+			<img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwdHlwaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="footer"/>
+			<h1>Give Your Feedback !!</h1>
+		</div>
+		<div class="FooterContent">
+			<div class="FooterLeft">
+				<h1>Made By Abhishek Patil</h1>
+				<h2>Stay Connected</h2>
+				<br/>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				
+			</div>
+			<div class="FooterRight">
+				<h2>Name : <input type="text" placeholder="Enter Your Name"/> </h2>
+				<h2>Email : <input type="email" placeholder="Enter Your Email"/></h2>
+				<h2>Feedback : </h2>
+				<textarea placeholder="Give Your Feedback"></textarea>
+					
+				<br/>
+				<button>Submit</button>
+				
+			</div>
 
-        </details>
-		<address>
-			Made by <a href="mailto:webmaster@example.com">Abhishek Patil</a>.<br> 
-			Visit us at:
-			Example.com<br>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-			India
-		</address>
+		</div>
+		
 	  </footer>
 
 
