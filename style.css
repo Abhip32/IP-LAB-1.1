@@ -227,7 +227,7 @@ div.InfoM{
 }
 
 .WorkExperience .WorkExperienceheader{
-    background-color: #14B789;
+    background-image: linear-gradient(180deg,#14B789,royalblue);
     color: white;
     display: flex;
     align-items: center;
@@ -382,7 +382,7 @@ div.InfoM{
 }
 
 .FavouriteQuote .FavouriteQuoteheader{
-    background-color: #14B789;
+    background-image: linear-gradient(180deg,#14B789,royalblue);
     color: white;
     display: flex;
     align-items: center;
@@ -439,7 +439,7 @@ div.InfoM{
 }
 
 .Multimedia .Multimediaheader{
-  background-color: #14B789;
+  background-image: linear-gradient(180deg,#14B789,royalblue);
   color: white;
   display: flex;
   align-items: center;
